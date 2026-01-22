@@ -1,0 +1,21 @@
+{
+ "app": "daycare",
+ "creation": "2026-01-22 00:39:48.313124",
+ "docstatus": 0,
+ "doctype": "Desktop Icon",
+ "hidden": 0,
+ "icon": "users",
+ "icon_type": "Link",
+ "idx": 0,
+ "label": "Daycare Staff",
+ "link_to": "Staff",
+ "link_type": "Workspace Sidebar",
+ "modified": "2026-01-22 09:14:18.063625",
+ "modified_by": "Administrator",
+ "name": "Daycare Staff",
+ "owner": "Administrator",
+ "parent_icon": "Daycare",
+ "restrict_removal": 0,
+ "roles": [],
+ "standard": 1
+}

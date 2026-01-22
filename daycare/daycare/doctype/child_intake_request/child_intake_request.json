@@ -1,0 +1,253 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2025-01-21 00:00:00.000000",
+ "doctype": "DocType",
+ "icon": "fa fa-file-text",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "child_first_name",
+  "child_last_name",
+  "column_break_1",
+  "child_date_of_birth",
+  "child_gender",
+  "section_break_guardian",
+  "guardian_name",
+  "guardian_relationship",
+  "column_break_2",
+  "guardian_email",
+  "guardian_phone",
+  "guardian_address",
+  "section_break_enrollment",
+  "preferred_start_date",
+  "preferred_schedule",
+  "column_break_3",
+  "status",
+  "section_break_notes",
+  "additional_notes",
+  "medical_notes",
+  "allergies",
+  "section_break_admin",
+  "submitted_on",
+  "reviewed_by",
+  "column_break_4",
+  "reviewed_on",
+  "admin_notes",
+  "section_break_attachments",
+  "attachments"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Series",
+   "options": "INTAKE-.####",
+   "print_hide": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "child_first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Child First Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "child_last_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Child Last Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "child_date_of_birth",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Child Date of Birth",
+   "reqd": 1
+  },
+  {
+   "fieldname": "child_gender",
+   "fieldtype": "Select",
+   "label": "Child Gender",
+   "options": "\nMale\nFemale\nOther"
+  },
+  {
+   "fieldname": "section_break_guardian",
+   "fieldtype": "Section Break",
+   "label": "Guardian Information"
+  },
+  {
+   "fieldname": "guardian_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Guardian Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "guardian_relationship",
+   "fieldtype": "Select",
+   "label": "Relationship to Child",
+   "options": "Mother\nFather\nGrandmother\nGrandfather\nAunt\nUncle\nSibling\nStep-Parent\nFoster Parent\nLegal Guardian\nOther",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "guardian_email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Guardian Email",
+   "options": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "guardian_phone",
+   "fieldtype": "Data",
+   "label": "Guardian Phone",
+   "options": "Phone",
+   "reqd": 1
+  },
+  {
+   "fieldname": "guardian_address",
+   "fieldtype": "Small Text",
+   "label": "Guardian Address"
+  },
+  {
+   "fieldname": "section_break_enrollment",
+   "fieldtype": "Section Break",
+   "label": "Enrollment Preferences"
+  },
+  {
+   "fieldname": "preferred_start_date",
+   "fieldtype": "Date",
+   "label": "Preferred Start Date"
+  },
+  {
+   "fieldname": "preferred_schedule",
+   "fieldtype": "Select",
+   "label": "Preferred Schedule",
+   "options": "\nFull-Time (Mon-Fri)\nPart-Time (3 days)\nPart-Time (2 days)\nFlexible"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Pending Review",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "Pending Review\nUnder Review\nWaitlisted\nApproved\nDeclined\nEnrolled",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_notes",
+   "fieldtype": "Section Break",
+   "label": "Additional Information"
+  },
+  {
+   "fieldname": "additional_notes",
+   "fieldtype": "Text Editor",
+   "label": "Additional Notes from Guardian"
+  },
+  {
+   "fieldname": "medical_notes",
+   "fieldtype": "Text Editor",
+   "label": "Medical Information"
+  },
+  {
+   "fieldname": "allergies",
+   "fieldtype": "Small Text",
+   "label": "Known Allergies"
+  },
+  {
+   "fieldname": "section_break_admin",
+   "fieldtype": "Section Break",
+   "label": "Administrative"
+  },
+  {
+   "default": "Today",
+   "fieldname": "submitted_on",
+   "fieldtype": "Date",
+   "label": "Submitted On",
+   "read_only": 1
+  },
+  {
+   "fieldname": "reviewed_by",
+   "fieldtype": "Link",
+   "label": "Reviewed By",
+   "options": "User"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "reviewed_on",
+   "fieldtype": "Date",
+   "label": "Reviewed On"
+  },
+  {
+   "fieldname": "admin_notes",
+   "fieldtype": "Text Editor",
+   "label": "Admin Notes"
+  },
+  {
+   "fieldname": "section_break_attachments",
+   "fieldtype": "Section Break",
+   "label": "Attachments"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Supporting Documents"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-21 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Daycare",
+ "name": "Child Intake Request",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "read": 1,
+   "role": "Guest",
+   "write": 1
+  }
+ ],
+ "search_fields": "child_first_name,child_last_name,guardian_name,guardian_email",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "child_first_name",
+ "track_changes": 1
+}

@@ -1,0 +1,164 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2025-01-21 00:00:00.000000",
+ "doctype": "DocType",
+ "icon": "fa fa-gavel",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "regulation_reference",
+  "rule_title",
+  "column_break_1",
+  "category",
+  "compliance_status",
+  "section_break_description",
+  "rule_description",
+  "section_break_audit",
+  "last_audit_date",
+  "next_audit_date",
+  "column_break_2",
+  "auditor",
+  "section_break_compliance",
+  "compliance_notes",
+  "section_break_attachments",
+  "attachments"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Series",
+   "options": "GNB-.####",
+   "print_hide": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "regulation_reference",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Regulation Reference",
+   "reqd": 1,
+   "unique": 1,
+   "description": "e.g., Reg 83-85, s.12"
+  },
+  {
+   "fieldname": "rule_title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Rule Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Category",
+   "options": "Staffing Ratios\nSafety\nHealth\nFacilities\nDocumentation\nTraining\nOther",
+   "reqd": 1
+  },
+  {
+   "default": "Compliant",
+   "fieldname": "compliance_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Compliance Status",
+   "options": "Compliant\nNon-Compliant\nPartially Compliant\nPending Review\nNot Applicable",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_description",
+   "fieldtype": "Section Break",
+   "label": "Rule Description"
+  },
+  {
+   "fieldname": "rule_description",
+   "fieldtype": "Text Editor",
+   "label": "Rule Description",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_audit",
+   "fieldtype": "Section Break",
+   "label": "Audit Information"
+  },
+  {
+   "fieldname": "last_audit_date",
+   "fieldtype": "Date",
+   "label": "Last Audit Date"
+  },
+  {
+   "fieldname": "next_audit_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Next Audit Date"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "auditor",
+   "fieldtype": "Data",
+   "label": "Auditor"
+  },
+  {
+   "fieldname": "section_break_compliance",
+   "fieldtype": "Section Break",
+   "label": "Compliance Notes"
+  },
+  {
+   "fieldname": "compliance_notes",
+   "fieldtype": "Text Editor",
+   "label": "Compliance Notes"
+  },
+  {
+   "fieldname": "section_break_attachments",
+   "fieldtype": "Section Break",
+   "label": "Attachments"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Supporting Documents"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-21 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Daycare",
+ "name": "GNB Rule",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "regulation_reference,rule_title,category",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "rule_title",
+ "track_changes": 1
+}

@@ -1,0 +1,115 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"Abc1DefGhi\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>My Workspace</b></span>\",\"col\":12}},{\"id\":\"Jkl2MnoP3q\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Children\",\"col\":3}},{\"id\":\"Rst4UvwX5y\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Groups\",\"col\":3}},{\"id\":\"Zab6CdeF7g\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Rooms\",\"col\":3}},{\"id\":\"Hij8KlmN9o\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"Pqr0StuV1w\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Rules & Guidelines</b></span>\",\"col\":12}},{\"id\":\"Xyz2AbcD3e\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Internal Rules\",\"col\":3}}]",
+ "creation": "2025-01-21 00:00:00.000000",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "type": "Workspace",
+ "app": "daycare",
+ "hide_custom": 0,
+ "icon": "users",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Daycare Staff",
+ "links": [
+  {
+   "hidden": 0,
+   "icon": "customer",
+   "is_query_report": 0,
+   "label": "Children",
+   "link_count": 0,
+   "link_to": "Child",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "icon": "organization",
+   "is_query_report": 0,
+   "label": "Groups",
+   "link_count": 0,
+   "link_to": "Group",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "icon": "home",
+   "is_query_report": 0,
+   "label": "Rooms",
+   "link_count": 0,
+   "link_to": "Room",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "icon": "today",
+   "is_query_report": 0,
+   "label": "Room Schedule",
+   "link_count": 0,
+   "link_to": "Room Activity",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "icon": "quality",
+   "is_query_report": 0,
+   "label": "Internal Rules",
+   "link_count": 0,
+   "link_to": "Internal Rule",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-01-21 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Daycare",
+ "name": "Daycare Staff",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 2,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Children",
+   "link_to": "Child",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Groups",
+   "link_to": "Group",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Rooms",
+   "link_to": "Room",
+   "type": "DocType"
+  },
+  {
+   "color": "Yellow",
+   "doc_view": "List",
+   "label": "Internal Rules",
+   "link_to": "Internal Rule",
+   "type": "DocType"
+  }
+ ],
+ "title": "Daycare Staff"
+}

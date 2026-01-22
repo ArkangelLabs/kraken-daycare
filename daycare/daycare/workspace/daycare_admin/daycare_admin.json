@@ -1,0 +1,208 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"Gsg7a3rTvY\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick Actions</b></span>\",\"col\":12}},{\"id\":\"KDu3TNSXQR\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Employee\",\"col\":3}},{\"id\":\"8Ndhz2KCZV\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Child\",\"col\":3}},{\"id\":\"PqK8JvNM2F\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Intake Requests\",\"col\":3}},{\"id\":\"XmL5RtWq9H\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"All Employees\",\"col\":3}},{\"id\":\"Y7nKpF4vGx\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ZqW8mN3hJy\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Management</b></span>\",\"col\":12}},{\"id\":\"AkL9pQ2rSz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"All Children\",\"col\":3}},{\"id\":\"BmN4qR6sTu\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Rooms\",\"col\":3}},{\"id\":\"RmS1cH3dUl\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Room Schedule\",\"col\":3}},{\"id\":\"CnP5rS7tVw\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Groups\",\"col\":3}},{\"id\":\"DoQ6sT8uWx\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Qualifications\",\"col\":3}},{\"id\":\"EpR7tU9vXy\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"FqS8uV0wYz\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Rules & Compliance</b></span>\",\"col\":12}},{\"id\":\"GrT9vW1xZa\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Internal Rules\",\"col\":3}},{\"id\":\"HsU0wX2yAb\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"GNB Rules\",\"col\":3}}]",
+ "creation": "2025-01-21 00:00:00.000000",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "type": "Workspace",
+ "app": "daycare",
+ "hide_custom": 0,
+ "icon": "building",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Daycare Admin",
+ "links": [
+  {
+   "hidden": 0,
+   "icon": "hr",
+   "is_query_report": 0,
+   "label": "Employees",
+   "link_count": 0,
+   "link_to": "Employee",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "icon": "education",
+   "is_query_report": 0,
+   "label": "Employee Qualifications",
+   "link_count": 0,
+   "link_to": "Employee Qualification",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "icon": "customer",
+   "is_query_report": 0,
+   "label": "Children",
+   "link_count": 0,
+   "link_to": "Child",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "icon": "home",
+   "is_query_report": 0,
+   "label": "Rooms",
+   "link_count": 0,
+   "link_to": "Room",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "icon": "today",
+   "is_query_report": 0,
+   "label": "Room Schedule",
+   "link_count": 0,
+   "link_to": "Room Activity",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "icon": "organization",
+   "is_query_report": 0,
+   "label": "Groups",
+   "link_count": 0,
+   "link_to": "Group",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "icon": "quality",
+   "is_query_report": 0,
+   "label": "Internal Rules",
+   "link_count": 0,
+   "link_to": "Internal Rule",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "icon": "restriction",
+   "is_query_report": 0,
+   "label": "GNB Rules",
+   "link_count": 0,
+   "link_to": "GNB Rule",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "icon": "assign",
+   "is_query_report": 0,
+   "label": "Child Intake Requests",
+   "link_count": 0,
+   "link_to": "Child Intake Request",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-01-21 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Daycare",
+ "name": "Daycare Admin",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 1,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "New",
+   "label": "New Employee",
+   "link_to": "Employee",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "New",
+   "label": "New Child",
+   "link_to": "Child",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "Intake Requests",
+   "link_to": "Child Intake Request",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "All Employees",
+   "link_to": "Employee",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "All Children",
+   "link_to": "Child",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Rooms",
+   "link_to": "Room",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "Calendar",
+   "label": "Room Schedule",
+   "link_to": "Room Activity",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Groups",
+   "link_to": "Group",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Qualifications",
+   "link_to": "Employee Qualification",
+   "type": "DocType"
+  },
+  {
+   "color": "Yellow",
+   "doc_view": "List",
+   "label": "Internal Rules",
+   "link_to": "Internal Rule",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "GNB Rules",
+   "link_to": "GNB Rule",
+   "type": "DocType"
+  }
+ ],
+ "title": "Daycare Admin"
+}
