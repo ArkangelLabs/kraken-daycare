@@ -11,6 +11,8 @@ fixtures = [
     {"dt": "DocType", "filters": [["module", "=", "Daycare"]]},
     {"dt": "Role", "filters": [["name", "in", ["Daycare Admin", "Director", "Supervisor", "Staff"]]]},
     {"dt": "Workspace", "filters": [["module", "=", "Daycare"]]},
+    {"dt": "Workspace Sidebar", "filters": [["module", "=", "Daycare"]]},
+    {"dt": "Desktop Icon", "filters": [["app", "=", "daycare"]]},
     {"dt": "Web Form", "filters": [["module", "=", "Daycare"]]},
     {"dt": "Report", "filters": [["module", "=", "Daycare"]]},
 ]

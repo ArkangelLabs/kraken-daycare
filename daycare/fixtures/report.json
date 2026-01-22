@@ -1,0 +1,75 @@
+[
+ {
+  "add_total_row": 0,
+  "add_translate_data": 0,
+  "columns": [],
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Report",
+  "filters": [],
+  "is_standard": "Yes",
+  "javascript": null,
+  "json": null,
+  "letter_head": null,
+  "modified": "2025-01-21 00:00:00",
+  "module": "Daycare",
+  "name": "Child Roster",
+  "prepared_report": 0,
+  "query": null,
+  "ref_doctype": "Child",
+  "reference_report": null,
+  "report_name": "Child Roster",
+  "report_script": null,
+  "report_type": "Script Report",
+  "roles": [
+   {
+    "role": "System Manager"
+   },
+   {
+    "role": "Daycare Admin"
+   },
+   {
+    "role": "Director"
+   },
+   {
+    "role": "Supervisor"
+   }
+  ],
+  "timeout": 0
+ },
+ {
+  "add_total_row": 0,
+  "add_translate_data": 0,
+  "columns": [],
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Report",
+  "filters": [],
+  "is_standard": "Yes",
+  "javascript": null,
+  "json": null,
+  "letter_head": null,
+  "modified": "2025-01-21 00:00:00",
+  "module": "Daycare",
+  "name": "Employee Roster",
+  "prepared_report": 0,
+  "query": null,
+  "ref_doctype": "Employee",
+  "reference_report": null,
+  "report_name": "Employee Roster",
+  "report_script": null,
+  "report_type": "Script Report",
+  "roles": [
+   {
+    "role": "System Manager"
+   },
+   {
+    "role": "Daycare Admin"
+   },
+   {
+    "role": "Director"
+   }
+  ],
+  "timeout": 0
+ }
+]
