@@ -8,8 +8,6 @@ app_license = "mit"
 # Fixtures
 # --------
 fixtures = [
-    {"dt": "DocType", "filters": [["module", "=", "Daycare"]]},
-    {"dt": "Role", "filters": [["name", "in", ["Daycare Admin", "Director", "Supervisor", "Staff"]]]},
     {"dt": "Workspace", "filters": [["module", "=", "Daycare"]]},
     {"dt": "Workspace Sidebar", "filters": [["module", "=", "Daycare"]]},
     {"dt": "Desktop Icon", "filters": [["app", "=", "daycare"]]},
@@ -97,7 +95,7 @@ add_to_apps_screen = [
 # ------------
 
 # before_install = "daycare.install.before_install"
-# after_install = "daycare.daycare.setup.install.after_install"
+after_install = "daycare.daycare.setup.install.after_install"
 
 # Uninstallation
 # ------------
